@@ -18,15 +18,15 @@
 		vertical-align: baseline;
 	}
 	
-	#programming {
-		content: url('file:///C:/html5up-photon/images/programming.png');
+		#programming {
+		content: url('https://github.com/bmazerolle/bmazerolle.github.io/tree/master/images/programming.png');
 		height: 250px;
 		width: 250px;
 		float:left;
 	}
 
 	#programming:hover {
-		content: url('file:///C:/html5up-photon/images/programming_hover.png');
+		content: url('https://github.com/bmazerolle/bmazerolle.github.io/tree/master/images/programming_hover.png');
 		height: 250px;
 		width: 250px;
 		float:left;
@@ -35,96 +35,96 @@
 	#hardware {
 		height: 250px;
 		width: 250px;
-		content: url('file:///C:/html5up-photon/images/Hardware.png');
+		content: url('https://github.com/bmazerolle/bmazerolle.github.io/tree/master/images/Hardware.png');
 		float:left;
 	}
 	
 	#hardware:hover {
 		height: 250px;
 		width: 250px;
-		content: url('file:///C:/html5up-photon/images/Hardware_hover.png');
+		content: url('https://github.com/bmazerolle/bmazerolle.github.io/tree/master/images/Hardware_hover.png');
 		float:left;
 	}
 	
 	#database {
-		content: url('file:///C:/html5up-photon/images/databaseicon.png');
+		content: url('https://github.com/bmazerolle/bmazerolle.github.io/tree/master/images/databaseicon.png');
 		height: 250px;
 		width: 250px;
 		float:left;
 	}
 
 	#database:hover {
-		content: url('file:///C:/html5up-photon/images/databaseicon_hover.png');
+		content: url('https://github.com/bmazerolle/bmazerolle.github.io/tree/master/images/databaseicon_hover.png');
 		height: 250px;
 		width: 250px;
 		float:left;
 	}
 	
 	#design {
-		content: url('file:///C:/html5up-photon/images/design.png');
+		content: url('https://github.com/bmazerolle/bmazerolle.github.io/tree/master/images/design.png');
 		height: 250px;
 		width: 250px;
 		float:left;
 	}
 
 	#design:hover {
-		content: url('file:///C:/html5up-photon/images/design_hover.png');
+		content: url('https://github.com/bmazerolle/bmazerolle.github.io/tree/master/images/design_hover.png');
 		height: 250px;
 		width: 250px;
 		float:left;
 	}
 	
 	#webdev {
-		content: url('file:///C:/html5up-photon/images/interneticon.png');
+		content: url('https://github.com/bmazerolle/bmazerolle.github.io/tree/master/images/interneticon.png');
 		height: 250px;
 		width: 250px;
 		float:left;
 	}
 
 	#webdev:hover {
-		content: url('file:///C:/html5up-photon/images/interneticon_hover.png');
+		content: url('https://github.com/bmazerolle/bmazerolle.github.io/tree/master/images/interneticon_hover.png');
 		height: 250px;
 		width: 250px;
 		float:left;
 	}
 	
 	#networks {
-		content: url('file:///C:/html5up-photon/images/networks.png');
+		content: url('https://github.com/bmazerolle/bmazerolle.github.io/tree/master/images/networks.png');
 		height: 250px;
 		width: 250px;
 		float:left;
 	}
 
 	#networks:hover {
-		content: url('file:///C:/html5up-photon/images/networks_hover.png');
+		content: url('https://github.com/bmazerolle/bmazerolle.github.io/tree/master/images/networks_hover.png');
 		height: 250px;
 		width: 250px;
 		float:left;
 	}
 	
 	#rtos {
-		content: url('file:///C:/html5up-photon/images/rtos.png');
+		content: url('https://github.com/bmazerolle/bmazerolle.github.io/tree/master/images/rtos.png');
 		height: 250px;
 		width: 250px;
 		float:left;
 	}
 
 	#rtos:hover {
-		content: url('file:///C:/html5up-photon/images/rtos_hover.png');
+		content: url('https://github.com/bmazerolle/bmazerolle.github.io/tree/master/images/rtos_hover.png');
 		height: 250px;
 		width: 250px;
 		float:left;
 	}
 	
 	#tools {
-		content: url('file:///C:/html5up-photon/images/tools.png');
+		content: url('https://github.com/bmazerolle/bmazerolle.github.io/tree/master/images/tools.png');
 		height: 250px;
 		width: 250px;
 		float:left;
 	}
 
 	#tools:hover {
-		content: url('file:///C:/html5up-photon/images/tools_hover.png');
+		content: url('https://github.com/bmazerolle/bmazerolle.github.io/tree/master/images/tools_hover.png');
 		height: 250px;
 		width: 250px;
 		float:left;
