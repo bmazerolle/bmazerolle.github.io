@@ -47,14 +47,14 @@
 	}
 	
 	#database {
-		content: url('https://github.com/bmazerolle/bmazerolle.github.io/tree/master/images/databaseicon.png');
+		content: url('https://github.com/bmazerolle/bmazerolle.github.io/blob/master/images/databaseicon.png');
 		height: 250px;
 		width: 250px;
 		float:left;
 	}
 
 	#database:hover {
-		content: url('https://github.com/bmazerolle/bmazerolle.github.io/tree/master/images/databaseicon_hover.png');
+		content: url('https://github.com/bmazerolle/bmazerolle.github.io/blob/master/images/databaseicon_hover.png');
 		height: 250px;
 		width: 250px;
 		float:left;
