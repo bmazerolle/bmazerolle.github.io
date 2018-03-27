@@ -96,7 +96,7 @@
 	}
 
 	#networks:hover {
-		content: url('https://github.com/bmazerolle/bmazerolle.github.io/tree/master/images/networks_hover.png');
+		content: url('images/networks_hover.png');
 		height: 250px;
 		width: 250px;
 		float:left;
