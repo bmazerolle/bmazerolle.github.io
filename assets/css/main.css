@@ -19,14 +19,14 @@
 	}
 	
 		#programming {
-		content: url('https://github.com/bmazerolle/bmazerolle.github.io/blob/master/images/Programming.png');
+		content: url('https://raw.githubusercontent.com/bmazerolle/bmazerolle.github.io/master/images/Programming.png');
 		height: 250px;
 		width: 250px;
 		float:left;
 	}
 
 	#programming:hover {
-		content: url('https://github.com/bmazerolle/bmazerolle.github.io/blob/master/images/Programming_hover.png');
+		content: url('https://raw.githubusercontent.com/bmazerolle/bmazerolle.github.io/master/images/Programming_hover.png');
 		height: 250px;
 		width: 250px;
 		float:left;
