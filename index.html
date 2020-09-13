@@ -1,157 +1,325 @@
-<!DOCTYPE HTML>
-<!--
-	Photon by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
-		<title>Ben Mazerolle</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<link rel="shortcut icon" href="https://raw.githubusercontent.com/bmazerolle/bmazerolle.github.io/master/images/me.ico" type="image/x-icon" />
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<title>Ben Mazerolle - Software Developer and Designer</title>
+		<meta name="description" content="Ben Mazerolle's personal website">
+		<meta name="keywords" content="freelance, developer, designer, software">
+    
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600|Montserrat:200,300,400" rel="stylesheet">
+
+		<link rel="stylesheet" href="assets/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/law-icons/font/flaticon.css">
+
+    <link rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.min.css">
+    
+    
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+
+    <link rel="stylesheet" href="assets/css/helpers.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 	</head>
-	<body>
+	<body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
+    
+    <nav class="navbar navbar-expand-lg navbar-dark pb_navbar pb_scrolled-light" id="pb-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Ben Mazerolle</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#probootstrap-navbar" aria-controls="probootstrap-navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="ion-navicon"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="probootstrap-navbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section-about">About Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section-skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section-work">Work and Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section-contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END nav -->
 
-		<!-- Header -->
-			<section id="header">
-				<div class="inner">
-					<span><img src="images/me.jpg" alt="" width = "10%"/></span>
-					<h1>Hi, I'm <strong>Ben Mazerolle</strong><br />
-					</h1>
-					<p>I'm a Software Engineering student who's passionate about<br />
-					aerospace software and creating things that make everyday tasks easier.</p>
-					<ul class="actions">
-						<li><a href="#one" class="button scrolly">Get to know me</a></li>
-					</ul>
-				</div>
-			</section>
+    <section class="pb_cover_v1 text-left cover-bg-black cover-bg-opacity-4" style="height: 100vh; background-image: url(assets/images/machu.png);" id="section-home">
+      <div class="container">
+        <div class="row align-items-center justify-content-end">
+          <div class="col-md-6  order-md-1">
+            <h2 class="heading mb-3">Ben Mazerolle</h2>
+            <div class="sub-heading"><p class="mb-5">Software Developer and Designer</p>
+            <p><a href='assets/files/resume.pdf' target="_blank" role="button" class="btn smoothscroll pb_outline-light btn-xl pb_font-13 p-4 rounded-0 pb_letter-spacing-2">My Resume</a></p>
+            </div>
+            
+          </div>  
+        </div>
+      </div>
+    </section>
+    <!-- END section -->
+    
+    
+    <section class="pb_section pb_section_v1" data-section="about" id="section-about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 pr-md-5 pr-sm-0">
+            <h2 class="mt-0 heading-border-top mb-3 font-weight-normal">Who I Am</h2>
+            <p>Growing up in Chilliwack, BC, I spent most of my childhood skiing, mountain biking and hiking in the mountains surrounding my home. I now live in Victoria, BC, and attend the University of Victoria. In my spare time, I’m a fan of weightlifting, riding my bike, gaming, and cooking with new foods.</p>
+            <p>I’m also a fan of creating things that make my every day life easier. I’ve worked on numerous programs designed to allow me to purchase sneakers automatically, predict the price of used cars, and split the costs in an organized fashion with roommates and friends. Right now I'm delving into mobile development further so I can bring my BC ferries sailing fill-up time algorithm to the app store.</p>
+          </div>
+          <div class="col-lg-7">
+            <div class="images">
+              <img style='margin-left: 30%; max-height:500px; max-width:60%;' src="assets/images/me.jpg">
+            </div>
+          </div>
+          
+        </div>
+      </div>  
+    </section>
+    <!-- END section -->
 
-		<!-- One -->
-			<section id="one" class="main style1">
-				<div class="container">
-					<div class="row 150%">
-						<div class="6u 12u$(medium)">
-							<header class="major">
-								<h2>Who I am<br />
-								</h2>
-							</header>
-							<p>Growing up in Chilliwack, BC, I spent most of my childhood skiing, mountain biking and hiking in the mountains surrounding my home. I now live in Victoria, BC, and attend the University of Victoria. In my spare time, I’m a fan of powerlifting, cooking, and making music.
-								<br/>
-								<br/>
-								I’m also a fan of creating things that make my every day life easier. I’ve worked on numerous web trawling programs designed to allow me to purchase items and tickets, as well as a program that calculates the cost of vacations.
-							</p>
-						</div>
-						<div class="6u$ 12u$(medium) important(medium)">
-							<span class="image fit"><img src="images/meskiing.png" alt=""/></span>
-						</div>
-					</div>
-				</div>
-			</section>
+    
+    <section class="pb_section bg-light" id="section-skills">
+      <div class="container">
+        <div class="row justify-content-md-center text-center mb-5">
+          <div class="col-lg-7">
+            <h2 class="mt-0 heading-border-top font-weight-normal">What I'm Good At</h2>
+            <p>My work experience, classes, and personal interests have led to my development of a wide range of skills. They're covered in-depth on my resume, but below is a sample of some of my abilities.</p>
+          </div>
+        </div>
 
-		<!-- Two -->
-			<section id="two" class="main style2">
-				<div class="container">
-					<div class="row 150%">
-						<div class="12u 20u$(medium)" align="center">
-							<header class="major" align="center">
-								<h2>My Skills</h2>
-							</header>
-							<p>A full copy of my resume can be found <a href='https://bmazerolle.github.io/assets/files/resume.pdf' target="_blank">here</a>.</p>
-							<!--<ul class="major-icons">
-								<li><span align="center"><div width="250px" id="programming"></div><div id="hardware" width="250px"></div><div id="database"></div><div id="design"></div><div id="webdev"></div><div id="networks"></div><div id="rtos"></div><div id="tools"></div></span></li>
-							</ul>-->
-						</div>
-					</div>
-				</div>
-			</section>
+        <div class="row">
+          <div class="col-md">
+            <div class="media pb_media_v2 d-block text-center mb-3">
+              <div class="icon border border-gray rounded-circle d-block mr-3 display-4 mx-auto mb-4"><i class="flaticon text-secondary flaticon-jury"></i></div>
+              <div class="media-body">
+                <h3 class="mt-0 pb_font-20">Web Development</h3>
+                <p>3 years of professional experience using Node.js and .NET core. Experienced with Vue.js, React.js and Angular.js.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="media pb_media_v2 d-block text-center mb-3">
+              <div class="icon border border-gray rounded-circle d-block mr-3 display-4 mx-auto mb-4"><i class="flaticon text-secondary flaticon-jury"></i></div>
+              <div class="media-body">
+                <h3 class="mt-0 pb_font-20">Software Architecture</h3>
+                <p>Professional experience with MVC and microservices architecture design and programming within those architectures. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="media pb_media_v2 d-block text-center  mb-3">
+              <div class="icon border border-gray rounded-circle d-flex mr-3 display-4 mx-auto mb-4"><i class="flaticon text-secondary flaticon-courthouse"></i></div>
+              <div class="media-body">
+                <h3 class="mt-0 pb_font-20">UI/UX Design</h3>
+                <p>Webapp design using SASS and PUG. Designed channel art for professional COD players using Photoshop and Illustrator.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md">
+            <div class="media pb_media_v2 d-block text-center  mb-3">
+              <div class="icon border border-gray rounded-circle d-flex mr-3 display-4 mx-auto mb-4"><i class="flaticon text-secondary flaticon-law"></i></div>
+              <div class="media-body">
+                <h3 class="mt-0 pb_font-20">Automation and Scripting</h3>
+                <p>Web scraping using beautifulsoup4. Automated web testing using Selenium and JustMock.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="media pb_media_v2 d-block text-center  mb-3">
+              <div class="icon border border-gray rounded-circle d-flex mr-3 display-4 mx-auto mb-4"><i class="flaticon text-secondary flaticon-law"></i></div>
+              <div class="media-body">
+                <h3 class="mt-0 pb_font-20">Machine Learning</h3>
+                <p>Created car value depreciation and BC Ferries fill-up time algorithms using Scikit-Learn.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="media pb_media_v2 d-block text-center  mb-3">
+              <div class="icon border border-gray rounded-circle d-flex mr-3 display-4 mx-auto mb-4"><i class="flaticon text-secondary flaticon-courthouse"></i></div>
+              <div class="media-body">
+                <h3 class="mt-0 pb_font-20">Mobile Development</h3>
+                <p>Professional experience building myControl iOS and Android apps using HTML5, Kotlin, and Swift. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END section -->
+      
+    <section class="pb_sm_py_cover text-center cover-bg-black cover-bg-opacity-4" style="background-image: url(assets/images/1900x1200_img_3.jpg)">
+      <div class="container">
 
-		<!-- Three -->
-			<section id="three" class="main style1 special">
-				<div class="container">
-					<header class="major">
-						<h2>My Projects</h2>
-					</header>
-					<p>All of my public work can be found on my <a href='http://www.github.com/bmazerolle' target="_blank">Github</a>.</p>
-					<div class="row 15
-					0%">
-						<div class="4u 12u$(medium)">
-							<span><img height="150" src="images/UVSD.png" alt="" /></span>
-							<h3>UVic Satellite Design Club</h3>
-							<p>I'm the lead for the Onboard Computer Software team. Our current project, ORCAASat, will launch off the International Space Station in July 2020.</p>
-							<ul class="actions">
-								<li><a href="UVSD.html" class="button">More</a></li>
-							</ul>
-						</div>
-						<div class="4u 12u$(medium)">
-							<span><img height="150" src="images/reqcheck512.png" alt="" /></span>
-							<h3>ReqCheck</h3>
-							<p>For NWHacks 2019, my friends and I built a visual prerequisite tree builder for UVic classes using Vue.js and Python web scrapers.</p>
-							<ul class="actions">
-								<li><a href="prereqcheck.html" class="button">More</a></li>
-							</ul>
-						</div>
-						<div class="4u$ 12u$(medium)">
-							<span><img height="150" src="images/myStyle.png" alt="" /></span>
-							<h3>myStyle</h3>
-							<p>I created a neural network based outfit generation app that as a part of a school project that has later turned into a side project.</p>
-							<ul class="actions">
-								<li><a href="myStyle.html" class="button">More</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</section>
+        <div class="row align-items-center">
+          <div class="col-md-12">
+            <h2 class="heading mb-3">My Resume</h2>
+            <p class="sub-heading mb-5 pb_color-light-opacity-8">(Just in case you missed it)</p>
+            <p><a href="assets/files/resume.pdf" role="button" target="_blank" class="btn smoothscroll pb_outline-light p-3 rounded-0 pb_font-13 pb_letter-spacing-2">View</a></p>
+          </div>  
+        </div>
 
-		<!-- Four -->
-			<section id="four" class="main style2 special">
-				<div class="container">
-					<header class="major">
-						<h2>Want to contact me?</h2>
-					</header>
-					<form method="POST" action="https://formspree.io/benmazerolle@yahoo.com">
-						<input type="email" name="email" placeholder="Your email">
-						<textarea name="message" placeholder="Your message"></textarea>
-						<p></p>
-						<button type="submit">Send</button>
-					</form>
-				</div>
-			</section>
+      </div>
+    </section>
+    <!-- END section -->
+    
+    <section class="pb_section pb_bg-half" data-section="practicing-areas" id="section-work">
+      <div class="container">
+        <div class="row justify-content-md-center text-center mb-5">
+          <div class="col-lg-7">
+            <h2 class="mt-0 heading-border-top font-weight-normal">What I've Worked On</h2>
+            <p>I've been fortunate to be a key member of numerous projects. Below are a few of my favorites.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+
+            <div class="single-item pb_slide_v2">
+              <div>
+                <div class="d-lg-flex d-md-block slide_content">
+                  <div class="pb_content-media" style="background-image: url(assets/images/billsplit.png);"></div>
+                  <div class="slide_content-text text-center"><h3 class="font-weight-normal mt-0 mb-4">BillSplit</h3>
+                    <p>Built webapp, including database, that splits bills. Authenticated users can add other users to groups, add purchases, and approve or decline group purchases using a voting mechanic. Monthly and yearly spending graphs are generated and displayed on the user's homepage.</p>
+                    <p class="font-italic">Technologies used: TypeScript, Node.js, MongoDB, Express, Heroku, Travis, PUG.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="d-lg-flex d-md-block slide_content">
+                  <div class="pb_content-media" style="background-image: url(assets/images/reqcheck.jpeg);"></div>
+                  <div class="slide_content-text text-center">
+                    <h3 class="font-weight-normal mt-0 mb-4">ReqCheck</h3>
+                    <p><a href="https://devpost.com/software/reqcheck">ReqCheck</a> is a  webapp that visualizes a prerequisite tree for UBC and UVic classes, built for NwHacks 2019. Built in RateMyProfessor API to each class listing so students can see the ratings of the teaching professor. Data was scraped and formatted directly from UVic and UBC websites.</p>
+                    <p class="font-italic">Technologies used: Python, JavaScript, Vue.js, Node.js, Vis.js, beautifulsoup4. </p>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="d-lg-flex d-md-block slide_content">
+                  <div class="pb_content-media" style="background-image: url(assets/images/car2.jpeg);"></div>
+                  <div class="slide_content-text text-center">
+                    <h3 class="font-weight-normal mt-0 mb-4">Car Value Predictor</h3>
+                    <p>Implemented and tested Neural Network, Random Forests, and K-Means clustering to value vehicles using condition and appearance metrics that was 95% accurate within $50 of value.</p>
+                    <p class="font-italic">Technologies used: Python, Scikit-Learn, PyPlot.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="d-lg-flex d-md-block slide_content">
+                  <div class="pb_content-media" style="background-image: url(assets/images/orcasat.jpg);"></div>
+                  <div class="slide_content-text text-center">
+                    <h3 class="font-weight-normal mt-0 mb-4">UVic Satellite Design</h3>
+                    <p>Led the ADCS software development of <a href='https://www.orcasat.ca/'>ORCASat</a> and <a href='http://www.uvsd.ca/#homathko'>Homathko</a> Nanosatellites with team of 10 undergraduate and graduate students. Designed and wrote control algorithms, operating system, and coordinated team members as Scrum Master/Product Owner.</p>
+                    <p class="font-italic">Technologies used: C, Embedded C, Matlab, Python, HalCoGen, TI Safety MCUs.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="d-lg-flex d-md-block slide_content">
+                  <div class="pb_content-media" style="background-image: url(assets/images/loading.png);"></div>
+                  <div class="slide_content-text text-center">
+                    <h3 class="font-weight-normal mt-0 mb-4">Ferry Fill-Up</h3>
+                    <p class="font-italic">This project is still in progress.</p>
+                    <p>Built a BC Ferries sailing filled time regressor using data acquired through a FOI request. Currently developing the iOS app to bring this algorithm to the app store.</p>
+                    <p class="font-italic">Technologies used: Python, Scikit-Learn, PyPlot, Swift, XCode.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>  
+    </section>
+    <!-- END section -->
+    
+    <section class="pb_section" data-section="contact" id="section-contact">
+      <div class="container">
+
+        <div class="row justify-content-md-center text-center mb-5">
+          <div class="col-lg-7">
+            <h2 class="mt-0 heading-border-top font-weight-normal">Contact Me</h2>
+            <p>I'm always open to discuss future projects, potential job opportunities, and any other questions about myself or my work.</p>
+          </div>
+        </div>
 
 
+        <div class="row">
+          <div class="container">
+            <div style="width: 80%; margin-left: 10%;">
+              <form method="POST" action="https://formspree.io/benmazerolle@gmail.com">
+                <div class="row">
+                  <div class="col-md">
+                    <div class="form-group">
+                      <label for="name">Name</label>
+                      <input type="text" class="form-control p-3 rounded-0" id="name">
+                    </div>
+                  </div>
+                  <div class="col-md">
+                    <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="text" class="form-control p-3 rounded-0" id="email">
+                    </div>
+                  </div>
+                </div>
 
-		<!-- Footer -->
-			<section id="footer">
-				<ul class="icons">
-					<li><a href="http://www.linkedin.com/in/ben-mazerolle/" class="icon alt fa-linkedin"><span class="label" target="_blank">Instagram</span></a></li>
-					<li><a href="http://www.github.com/bmazerolle" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-					<li><a href="mailto:benmazerolle@yahoo.com" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
-				</ul>
-				<ul class="copyright">
-					<li>&copy; 2018</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-				</ul>
-			</section>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea cols="30" rows="10" class="form-control p-3 rounded-0" id="message"></textarea>
+                </div>
+                <div class="form-group">
+                  <input type="submit" class="btn pb_outline-dark pb_font-13 pb_letter-spacing-2 p-3 rounded-0" value="Send Message">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <!-- END section -->
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-			<script>
-				// When the user clicks on <div>, open the popup
-				function myFunction() {
-					var popup = document.getElementById("myPopup");
-					popup.classList.toggle("show");
-				}
-			</script>
+    <footer class="pb_footer bg-light" role="contentinfo">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <ul class="list-inline">
+              <li class="list-inline-item"><a href="https://www.github.com/bmazerolle" class="p-2" target="_blank"><i class="fa fa-github"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.linkedin.com/in/ben-mazerolle/" class="p-2" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-center">
+            <p class="pb_font-14">&copy; 2020 Ben Mazerolle. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <!-- loader -->
+    <div id="pb_loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#FDA04F"/></svg></div>
+
+
+    <script src="assets/js/jquery.min.js"></script>
+    
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+
+    <script src="assets/js/main.js"></script>
 
 	</body>
-
-
 </html>
